@@ -1,13 +1,13 @@
-# Resenhex Feirex 
+# Resenhex Feirex ヾ(⌐■_■)ノ♪
 
-**Equipe:** Pitica Tech  
+**Equipe:** Pitica Tech  🤖
 
 
 ## Integrantes
-* Guilherme Oliveira
-* Luis Eduardo
-* Marcelo Henrique
-* Daniel de Almeida
+* [Guilherme Oliveira]
+* [Luis Eduardo]
+* [Marcelo Henrique]
+* [Daniel de Almeida]
 
 ## Problema e Solução
 Pequenos comerciantes da Feira da Prata e do centro de Santa Inês frequentemente enfrentam perdas de mercadorias (hortifrúti e grãos) e prejuízos financeiros por realizarem o controle de vendas e reposição de forma manual. 
