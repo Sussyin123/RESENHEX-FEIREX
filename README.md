@@ -1,4 +1,5 @@
-# Resenhex Feirex.                     ヾ(⌐■_■)ノ♪
+# Resenhex Feirex.
+ヾ(⌐■_■)ノ♪
 
 **Equipe:** Pitica Tech  🤖
 
