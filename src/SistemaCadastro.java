@@ -7,8 +7,7 @@ public class SistemaCadastro {
     public SistemaCadastro() {
         this.pessoas = new ArrayList<>();
     }
-
-    public void cadastrarPessoa(Pessoa p) {
+  public void cadastrarPessoa(Pessoa p) {
         pessoas.add(p);
         System.out.println("cadastradex com sucessex de rolex");
     }
@@ -32,17 +31,17 @@ public class SistemaCadastro {
             boolean bateNome = p.getNome().equalsIgnoreCase(termo);
             boolean bateMatricula = false;
 
-            if (p instanceof Aluno) {
+          if (p instanceof Aluno) {
                 Aluno a = (Aluno) p;
                 if (a.getMatricula().equalsIgnoreCase(termo)) {
                     bateMatricula = true;
                 }
             }
 
-            if (bateNome || bateMatricula) {
+              if (bateNome || bateMatricula) {
                 System.out.println(p.seApresentar());
                 encontrado = true;
-            }
+         }
         }
 
         if (!encontrado) {
