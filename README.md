@@ -31,3 +31,42 @@ javac *.java
 Bash
 
 Java Main
+
+
+### 3. Configuração do Driver SQLite JDBC
+
+Baixe o driver JDBC do SQLite (`sqlite-jdbc.jar`) e coloque o arquivo dentro da pasta `/src/` do projeto.
+
+### 4. Compilação
+
+Abra o terminal dentro da pasta `/src/` do projeto.
+
+**Windows:**
+```bash
+javac -cp ".;sqlite-jdbc.jar" *.java
+```
+
+**Linux/macOS:**
+```bash
+javac -cp ".:sqlite-jdbc.jar" *.java
+```
+
+### 5. Execução
+
+**Windows:**
+```bash
+java -cp ".;sqlite-jdbc.jar" Main
+```
+
+**Linux/macOS:**
+```bash
+java -cp ".:sqlite-jdbc.jar" Main
+```
+
+## Conexão com SQLite
+
+A classe `ConexaoSQLite.java` utiliza o driver JDBC para estabelecer conexão com o banco de dados SQLite.
+
+A URL de conexão utilizada é `jdbc:sqlite:resenhex_feirex.db`.
+
+A tabela `pessoas` é criada automaticamente caso ainda não exista.
